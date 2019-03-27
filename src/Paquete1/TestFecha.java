@@ -30,5 +30,8 @@ public class TestFecha {
 		
 		Fecha f5 = new Fecha("23/02/2019");
 		System.out.println(f5);
+		
+		f5.addDias(10);
+		System.out.println(f5);
 	}
 }
