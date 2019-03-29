@@ -1,4 +1,4 @@
-package Paquete1;
+package paquete1;
 
 public class TestFecha {
 	public static void main (String [] args) {
@@ -33,5 +33,18 @@ public class TestFecha {
 		
 		f5.addDias(10);
 		System.out.println(f5);
+		
+		//Vamos a probar la herencia de FechaDetallada
+		
+		FechaDetallada f6 = new FechaDetallada();
+		f6.setDia(28);
+		f6.setMes(3);
+		f6.setAnio(2019);
+		System.out.println(f6); //se va al arry y busca el índice -1 del mes que le hemos asignado a la fechadetallada
+		
+		FechaDetallada f7 = new FechaDetallada("29/04/2019");//probamos el constructor heredado con super(f)
+		System.out.println(f7);
+		
+		
 	}
 }

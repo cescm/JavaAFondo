@@ -1,5 +1,6 @@
-package Paquete1;
+package paquete1;
 
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Arrays {
@@ -31,6 +32,7 @@ public class Arrays {
 		System.out.println("La cadena termina por \"enb\" : " + cadena.endsWith("enb"));
 		System.out.println("La primera ocurrencia de la subcadena \"mplo\" es: " + cadena.indexOf("mplo"));
 		System.out.println("La ultima ocurrencia de la subcadena \"de\" es: " + cadena.lastIndexOf("de"));
+		Scanner sc = new Scanner(System.in);
 		
 		//uso StringBuffer
 		StringBuffer sb = new StringBuffer();
